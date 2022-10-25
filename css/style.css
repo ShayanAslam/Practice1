@@ -1,0 +1,150 @@
+*{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#header{
+    height: 80vh;
+    position: relative;
+    z-index: 2;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    z-index: 3;
+    color: white !important;
+    padding: 26px 90px !important;
+    background-color: transparent !important;
+}
+
+.navigation{
+    display: flex;
+}
+.navLogo img{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+#navbarNav ul{
+    margin-left: auto;
+}
+nav div ul li a {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: white !important;
+}
+.slider{
+    position: absolute;
+    top: 0px;
+    height: 500px;
+    width: 100% !important;
+
+}
+
+.carouselSize{
+    background-color: transparent !important;
+    display: flex;
+    width: 100% !important;
+
+}
+.carouselSize img{
+    width: 100% !important;
+    height: 570px !important;
+
+}
+.carousel-item h2{
+    text-align: center;
+    background-color: transparent !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.caption{
+    bottom: 250px !important;
+}
+.caption h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#Adventures{
+    margin-top: 100px;
+    position: relative !important;
+    z-index: 1;
+}
+#Adventures h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+#Adventures p{
+    color: gray;
+}
+.AdventuresSize{
+    padding: 2% 5%;
+}
+.imgDiv{
+    height: 300px;
+
+}
+.imgDiv h4{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    font-weight: 500;
+    text-align: start;
+
+}
+.imgDiv img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imgDiv img :hover{
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:992px) {
+    /* .slider{
+        height: 1900px;
+    }
+    .caption{
+        position:relative ;
+        top: 20%;
+    }
+    .carousel-item{
+        height: 150vh !important;
+    } */
+    .imgDiv{
+        margin-bottom: 40px;
+    }
+    .caption h2{
+        display: inline;
+    }
+    nav{
+        padding: 0px !important;
+
+    }
+    .navLogo img{
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+
+    
+  }
